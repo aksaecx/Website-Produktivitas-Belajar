@@ -1,0 +1,36 @@
+/* footer.css - versi minimalis */
+footer {
+    background: #2c3e50;
+    padding: 0;
+    color: white;
+    font-size: 0.9rem;
+    position: relative;
+    z-index: 100;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    height: 60px; /* Fixed height */
+    display: flex;
+    align-items: center; /* Vertikal center */
+    justify-content: center; /* Horizontal center */
+    text-align: center; /* Memastikan teks rata tengah */
+}
+
+/* Jika ada elemen wrapper di dalam footer */
+footer > div {
+    width: 100%;
+    text-align: center;
+}
+
+footer small {
+    line-height: 1;
+    display: block;
+}
+
+footer .container {
+    padding: 0 15px; /* Padding horizontal */
+}
+
+footer small {
+    line-height: 1.3; /* Jarak antar baris ketat */
+    display: inline-block;
+    padding: 5px 0; /* Padding vertikal minimal */
+}
